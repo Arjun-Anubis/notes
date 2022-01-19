@@ -1,0 +1,70 @@
+* Winds
+** Static winds
+
+#+DOWNLOADED: screenshot @ 2022-01-18 13:05:17
+[[file:Winds/2022-01-18_13-05-17_screenshot.png]]
+
+*** Northern Hemisphere
+**** North Easterlies
+Polar
+**** South Westerlies
+Variable
+**** North-East Trade Winds
+*** Southern Hemisphere
+**** South-East Trade Winds
+**** North Westerlies
+Variable, AKA: Roaring Forties, Furious Fifties, Shrieking/Gloomy Sixties
+**** South Westerlies
+** Periodic winds
+Only during a certain part of the year, or season, or day.
+*** Daily
+**** Sea Breeze
+Sea -> Land
+**** Land Breeze
+Land -> Sea
+*** Seasonal
+**** Monsoon
+Same cause as land and sea breeze but they are on the seasonal scale.
+***** Summer Monsoon
+Wind blows from the Sea to the land as in summer the land mass has
+lower pressure, coming from the ocean they bring rain and moisture to
+the coastal region
+
+***** Winter Monsoon
+Much weaker, carries no water and is pretty much sporadic they winds
+are cold and dry coming from central asia.
+
+** Local Winds
+Localized only effect a small area
+*** Loo
+*** Chinook
+*** Feohn
+*** Mistral
+** Variable Winds
+They are caused occasionally due to the movement of pressure systems
+*** Cyclones
+*** Anti-Cyclones
+* Pressure Belts
+** Low pressure eq
+Makes Sense its pretty hot so low pressure. This forms clouds when the
+water rises and makes cloud, this also explains daily rainfall
+** High pressure Sub tropical
+Doesn't really make sense its still pretty hot. The air which has
+risen from the equator, will sink when it reaches slightly higher
+latitudes. This also means that there won't be any clouds because all
+the water leaves as the air cools, it evaporatoes off. This means that
+the sky is clear. No cloud cover means extreme temperatures.
+
+Off hand: "/This is why there are desserts there"/
+
+** Low Pressure Sub Polar
+** High Pressure Polar
+Makes sense its prety cold so high pressure
+* Pressure Cells
+- Hadley cell
+  Between the eq and subtropical belts
+- Ferrel cell
+  Between the Sub Polar and and Sub tropical Belts
+- Polar cell
+  Between the polar and sub polar belts
+

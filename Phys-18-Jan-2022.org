@@ -1,0 +1,213 @@
+* Physics
+** Motion in one dimension
+** Laws of motion
+** Gravitation
+** Heat
+*** Definition of temperature
+
+- /Degree of hottness or coldness of an object./
+- /Average total kinetic energy in an object/
+/- It determines the direction of flow of heat/
+
+Unit - K, C
+*** Definition of Heat
+
+/- Sum total energy of all the molecules in a substance/
+
+~AKA:~ *Thermal Energy*, *Heat Energy*
+
+Unit - Joule, Watt-Hour
+1 cal = 4.126 Joule
+
+*** Thermal equilibrium
+
+#+DOWNLOADED: screenshot @ 2022-01-18 13:59:40
+[[file:Physics/2022-01-18_13-59-40_screenshot.png]]
+
+- The condition when objects in contact with each other do not further exchange head it called /Thermal Equilibrium/
+
+*** Difference between heat and temperature
+|-----+----------------------------------+-----------------------------------------------|
+| No. | Heat                             | Temperature                                   |
+|-----+----------------------------------+-----------------------------------------------|
+|  1. | Heat is a form of energy         | Temperature is a degree of hotness or colness |
+|  2. | Heat is the cause of temperature | Temperature is an effect of heat              |
+|  3. | -                                | Temperature determines the direction of heat. |
+|  4. | Unit - joule                     | Unit - kelvin                                 |
+|-----+----------------------------------+-----------------------------------------------|
+*** Anamolous Expansion of Water
+
+#+DOWNLOADED: screenshot @ 2022-01-18 13:27:22
+[[file:Heat/2022-01-18_13-27-22_screenshot.png]] 
+
+The Density of water is minimum at the temperature of 4C at 1
+gm/cc. Which is the standard density of water given in most places.
+
+**** Pratical Applications
+
+***** Survival of Aquatic Creatures
+In Northern climates lakes would fully freeze over, rather than just
+the surface because the surface would be the last to freeze anyway,
+but because at 4C the water sinks. Meaning at 4C The lake would be
+uniformly heated.
+
+***** Water Pipes burst
+***** Fruits Burst
+***** Frost bite
+
+**** TODO Q1 Q7
+** Energy
+** Reflection of light
+*** The nature of light
+- Light is a form of energy.
+- Wave nature, particular nature, transverse
+wave ( transverse - perpendicular ), ( logngitudinal is along the
+length ).
+**** TODO Speed of light 3 * 10^8 m/s ( by definition,  approx. 299,792,458 _
+In air, same as vaccum, in glass 2, and in water 2.25
+
+*** Reflection of light
+- /Reflection is the phenomenon in which rays of light on striking a
+surface are sent back into the same medium/
+*** Definitions of Some terms
+**** Points
+1. Point of incidence
+   Point where the ray strikes the mirror
+2. Point of reflection
+   Point from which the ray emerges
+**** Rays 
+1. Incident ray
+   The ray that strickes the mirror's reflecting surface
+2. Reflected ray
+   The ray that emerges from the mirror
+3. Normal
+   A line drawn perpendicular to the mirror at the point of incidence
+**** Angles
+1. Angle of incidence
+   Angle between the incident ray and normal
+2. Angle of reflection
+   Angle between the reflected ray and normal
+3. Glance angle of incidence
+   Angle between the incident ray and mirror
+4. Glance angle of reflection
+   Angle between the reflected ray and mirror
+*** Laws of Reflection
+1. The incident ray, the normal, and the reflected ray are all in the same plance
+2. The angle of incidence is equal to the angle if reflection
+*** Types of Images
+**** Real Image
+Can be obtained on a screen. Is inverted. Example cinema screen
+**** Virtual Image
+Can _not_ be obtained on a screen. Is errect. Example plane mirror.
+*** Differences
+| Parameter | Real                                                                  | Virtual                                              |
+|-----------+-----------------------------------------------------------------------+------------------------------------------------------|
+| Formation | It is fromed when two rays inersect at a point in front of the mirror | When two or more rays appear to meet behind a screen |
+| Screen    | It can be obtained on a screen                                        | It can _not_                                           |
+| Nature    | It is always inverted                                                 | It is alwyas _errect_                                |
+
+*** Pair of mirros formula
+*** Parallel mirrors
+*** Uses of plane mirrors
+** Sound
+** Electricty 
+** Magnetism
+* English
+** Merchant of Venice
+*** TODO Worksheets
+
+#+DOWNLOADED: file:///home/anubi/Downloads/Eng_IX_-Lit-Worksheet%209-%20MOV-%20Act%201%20Sc%201.pdf @ 2022-01-19 09:14:35
+[[file:English/2022-01-19_09-14-35_Eng_IX_-Lit-Worksheet 9- MOV- Act 1 Sc 1.pdf]]
+
+
+#+DOWNLOADED: file:///home/anubi/Downloads/Eng_IX_-Lit-Worksheet%209-MOV%20I%20(ii).pdf @ 2022-01-19 09:14:54
+[[file:English/2022-01-19_09-14-54_Eng_IX_-Lit-Worksheet 9-MOV I (ii).pdf]]
+
+#+DOWNLOADED: file:///home/anubi/Downloads/Eng_Lit_MOV_Worksheet%2010.pdf @ 2022-01-19 09:15:02
+[[file:English/2022-01-19_09-15-02_Eng_Lit_MOV_Worksheet 10.pdf]]
+
+*** Act 1
+**** Scene 1
+Whole discussion about why antonio is sad, followed by bassanio
+revealing to antonio what he had wanted to talk about
+
+***** Segment 1
+Antonio \rightarrow Salarino, Salanio: Reasons why antonio is sad
+***** Segment 2
+Antonio \rightarrow Gratiano, Lorenzo: Gratiano not letting lorenzo speak
+***** Segment 3
+Antonio \rightarrow Bassanio: Portia
+
+
+***** References 
+****** Middle Age References
+- Jaundice
+- Livers being the most important organ in the body
+****** Greek References
+- Nestor ( Greek general, never laughed )
+- Jason
+- Oracle
+- Golden fleece
+****** Roman References
+- Janus
+- Portia (the other one)
+- Brutus
+- Cato
+**** Scene 2
+Portia and nerissa discusss portia's suitor. First she cribs a little
+bit about her father's rules and then it's made clear she likes
+bassanio
+***** Cribbing
+If it do was as easy as to know what were good to do, Chapels had
+been chruches as poor men's cottages princes' palaces. It is a good
+divine that follows his own instructions. I can easier teach twenty
+what were good to be done, that ne one of the twenty to follow mine
+own teaching. The brain may devise laws for blood, but a hot temper
+leaps o'er a cold decree: such a hare is madness of youth, to skit
+o'er the meshes of good cousel, the cripple
+***** Neapolitan Prince
+From naples, Italy
+(map)
+
+Greatest Achievement: Shoeing his horse
+Hobby: Talking about how he can shoe his horse.
+
+***** County palatine
+South Germany ( does not exist yet ), so palatinate
+
+Future expectations: Going to live in the mountains abandoning humaity (=Heraclitus of Ephesus=)
+Hobbies: Sulking
+
+/I had rather be married to death's head with a bone in his mouth/
+***** Monsieur Le bon
+France
+
+Stunning prince from france, beats down both County palatine /and/
+Neaplitan.... In being a horrible husband. He has the temprement of
+Count plataine. And the boastfulnes of the Neapolitan prince.
+
+/If he would despise me, I should forgive him. for if he love me to
+maddness, I shall never requite him/
+***** Baron Falconbridge
+From, England
+
+Languages: /pas de/ /Français/, /non latin/, /nessun italiano/
+****** Clothes
+- Italian Doublet(Jacket)
+- French Breeches
+- German Bonnet
+- Everywherian behaviour
+
+/alas, who can converse with a dumb show/
+***** /Scottish lord/
+***** Nephew of Duke Saxony
+***** Prince Morroco
+**** Scene 3
+*** Act 2
+**** Scene 1
+**** Scene 2
+**** Scene 3
+**** Scene 4
+**** Scene 5
+**** Scene 6
+**** Scene 7
