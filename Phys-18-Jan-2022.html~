@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-01-19 Wed 10:18 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="anubi" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgbf18950">1. Physics</a>
+<ul>
+<li><a href="#orge154563">1.1. Motion in one dimension</a></li>
+<li><a href="#org78798c5">1.2. Laws of motion</a></li>
+<li><a href="#org4dbc91d">1.3. Gravitation</a></li>
+<li><a href="#org9248a6b">1.4. Heat</a>
+<ul>
+<li><a href="#org7e69937">1.4.1. Definition of temperature</a></li>
+<li><a href="#org2912b47">1.4.2. Definition of Heat</a></li>
+<li><a href="#orgceb8e3f">1.4.3. Thermal equilibrium</a></li>
+<li><a href="#orgf5a72d5">1.4.4. Difference between heat and temperature</a></li>
+<li><a href="#org4693af0">1.4.5. Anamolous Expansion of Water</a></li>
+</ul>
+</li>
+<li><a href="#org32862d5">1.5. Energy</a></li>
+<li><a href="#org435d99d">1.6. Reflection of light</a>
+<ul>
+<li><a href="#org515d532">1.6.1. The nature of light</a></li>
+<li><a href="#org9f5cf96">1.6.2. Reflection of light</a></li>
+<li><a href="#org077b2b3">1.6.3. Definitions of Some terms</a></li>
+<li><a href="#org9f0791d">1.6.4. Laws of Reflection</a></li>
+<li><a href="#org949bacb">1.6.5. Types of Images</a></li>
+<li><a href="#orgec7e3f8">1.6.6. Differences</a></li>
+<li><a href="#org0cf063b">1.6.7. Pair of mirros formula</a></li>
+<li><a href="#org24a3d58">1.6.8. Parallel mirrors</a></li>
+<li><a href="#org807665b">1.6.9. Uses of plane mirrors</a></li>
+</ul>
+</li>
+<li><a href="#org87e0185">1.7. Sound</a></li>
+<li><a href="#orgba738bc">1.8. Electricty</a></li>
+<li><a href="#org108eace">1.9. Magnetism</a></li>
+</ul>
+</li>
+<li><a href="#org2110f0d">2. English</a>
+<ul>
+<li><a href="#org5771fa0">2.1. Merchant of Venice</a>
+<ul>
+<li><a href="#orgf5e28f9">2.1.1. <span class="todo TODO">TODO</span> Worksheets</a></li>
+<li><a href="#org67ad221">2.1.2. Act 1</a></li>
+<li><a href="#org2c3c253">2.1.3. Act 2</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgf5fec78">3. Biology</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbf18950" class="outline-2">
+<h2 id="orgbf18950"><span class="section-number-2">1</span> Physics</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orge154563" class="outline-3">
+<h3 id="orge154563"><span class="section-number-3">1.1</span> Motion in one dimension</h3>
+</div>
+<div id="outline-container-org78798c5" class="outline-3">
+<h3 id="org78798c5"><span class="section-number-3">1.2</span> Laws of motion</h3>
+</div>
+<div id="outline-container-org4dbc91d" class="outline-3">
+<h3 id="org4dbc91d"><span class="section-number-3">1.3</span> Gravitation</h3>
+</div>
+<div id="outline-container-org9248a6b" class="outline-3">
+<h3 id="org9248a6b"><span class="section-number-3">1.4</span> Heat</h3>
+<div class="outline-text-3" id="text-1-4">
+</div>
+<div id="outline-container-org7e69937" class="outline-4">
+<h4 id="org7e69937"><span class="section-number-4">1.4.1</span> Definition of temperature</h4>
+<div class="outline-text-4" id="text-1-4-1">
+<ul class="org-ul">
+<li><i>Degree of hottness or coldness of an object.</i></li>
+<li><i>Average total kinetic energy in an object</i></li>
+</ul>
+<p>
+<i>- It determines the direction of flow of heat</i>
+</p>
+
+<p>
+Unit - K, C
+</p>
+</div>
+</div>
+<div id="outline-container-org2912b47" class="outline-4">
+<h4 id="org2912b47"><span class="section-number-4">1.4.2</span> Definition of Heat</h4>
+<div class="outline-text-4" id="text-1-4-2">
+<p>
+<i>- Sum total energy of all the molecules in a substance</i>
+</p>
+
+<p>
+<code>AKA:</code> <b>Thermal Energy</b>, <b>Heat Energy</b>
+</p>
+
+<p>
+Unit - Joule, Watt-Hour
+1 cal = 4.126 Joule
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgceb8e3f" class="outline-4">
+<h4 id="orgceb8e3f"><span class="section-number-4">1.4.3</span> Thermal equilibrium</h4>
+<div class="outline-text-4" id="text-1-4-3">
+
+<div class="figure">
+<p><img src="Physics/2022-01-18_13-59-40_screenshot.png" alt="2022-01-18_13-59-40_screenshot.png" />
+</p>
+</div>
+
+<ul class="org-ul">
+<li>The condition when objects in contact with each other do not further exchange head it called <i>Thermal Equilibrium</i></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf5a72d5" class="outline-4">
+<h4 id="orgf5a72d5"><span class="section-number-4">1.4.4</span> Difference between heat and temperature</h4>
+<div class="outline-text-4" id="text-1-4-4">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">No.</th>
+<th scope="col" class="org-left">Heat</th>
+<th scope="col" class="org-left">Temperature</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1.</td>
+<td class="org-left">Heat is a form of energy</td>
+<td class="org-left">Temperature is a degree of hotness or colness</td>
+</tr>
+
+<tr>
+<td class="org-right">2.</td>
+<td class="org-left">Heat is the cause of temperature</td>
+<td class="org-left">Temperature is an effect of heat</td>
+</tr>
+
+<tr>
+<td class="org-right">3.</td>
+<td class="org-left">-</td>
+<td class="org-left">Temperature determines the direction of heat.</td>
+</tr>
+
+<tr>
+<td class="org-right">4.</td>
+<td class="org-left">Unit - joule</td>
+<td class="org-left">Unit - kelvin</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org4693af0" class="outline-4">
+<h4 id="org4693af0"><span class="section-number-4">1.4.5</span> Anamolous Expansion of Water</h4>
+<div class="outline-text-4" id="text-1-4-5">
+
+<div class="figure">
+<p><img src="Heat/2022-01-18_13-27-22_screenshot.png" alt="2022-01-18_13-27-22_screenshot.png" /> 
+</p>
+</div>
+
+<p>
+The Density of water is minimum at the temperature of 4C at 1
+gm/cc. Which is the standard density of water given in most places.
+</p>
+</div>
+
+<ol class="org-ol">
+<li><a id="orgb94997a"></a>Pratical Applications<br />
+<ol class="org-ol">
+<li><a id="org4ae52e4"></a>Survival of Aquatic Creatures<br />
+<div class="outline-text-6" id="text-1-4-5-1-1">
+<p>
+In Northern climates lakes would fully freeze over, rather than just
+the surface because the surface would be the last to freeze anyway,
+but because at 4C the water sinks. Meaning at 4C The lake would be
+uniformly heated.
+</p>
+</div>
+</li>
+
+<li><a id="orgf8507fc"></a>Water Pipes burst<br /></li>
+<li><a id="org5f7c898"></a>Fruits Burst<br /></li>
+<li><a id="org09473c3"></a>Frost bite<br /></li>
+</ol>
+</li>
+
+<li><a id="org6ce536c"></a><span class="todo TODO">TODO</span> Q1 Q7<br /></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org32862d5" class="outline-3">
+<h3 id="org32862d5"><span class="section-number-3">1.5</span> Energy</h3>
+</div>
+<div id="outline-container-org435d99d" class="outline-3">
+<h3 id="org435d99d"><span class="section-number-3">1.6</span> Reflection of light</h3>
+<div class="outline-text-3" id="text-1-6">
+</div>
+<div id="outline-container-org515d532" class="outline-4">
+<h4 id="org515d532"><span class="section-number-4">1.6.1</span> The nature of light</h4>
+<div class="outline-text-4" id="text-1-6-1">
+<ul class="org-ul">
+<li>Light is a form of energy.</li>
+<li>Wave nature, particular nature, transverse</li>
+</ul>
+<p>
+wave ( transverse - perpendicular ), ( logngitudinal is along the
+length ).
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="org69698fc"></a><span class="todo TODO">TODO</span> Speed of light 3 * 10<sup>8</sup> m/s ( by definition,  approx. 299,792,458 _<br />
+<div class="outline-text-5" id="text-1-6-1-1">
+<p>
+In air, same as vaccum, in glass 2, and in water 2.25
+</p>
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org9f5cf96" class="outline-4">
+<h4 id="org9f5cf96"><span class="section-number-4">1.6.2</span> Reflection of light</h4>
+<div class="outline-text-4" id="text-1-6-2">
+<ul class="org-ul">
+<li>/Reflection is the phenomenon in which rays of light on striking a</li>
+</ul>
+<p>
+surface are sent back into the same medium/
+</p>
+</div>
+</div>
+<div id="outline-container-org077b2b3" class="outline-4">
+<h4 id="org077b2b3"><span class="section-number-4">1.6.3</span> Definitions of Some terms</h4>
+<div class="outline-text-4" id="text-1-6-3">
+</div>
+<ol class="org-ol">
+<li><a id="org5345578"></a>Points<br />
+<div class="outline-text-5" id="text-1-6-3-1">
+<ol class="org-ol">
+<li>Point of incidence
+Point where the ray strikes the mirror</li>
+<li>Point of reflection
+Point from which the ray emerges</li>
+</ol>
+</div>
+</li>
+<li><a id="org5b21276"></a>Rays<br />
+<div class="outline-text-5" id="text-1-6-3-2">
+<ol class="org-ol">
+<li>Incident ray
+The ray that strickes the mirror's reflecting surface</li>
+<li>Reflected ray
+The ray that emerges from the mirror</li>
+<li>Normal
+A line drawn perpendicular to the mirror at the point of incidence</li>
+</ol>
+</div>
+</li>
+<li><a id="orgc6845d6"></a>Angles<br />
+<div class="outline-text-5" id="text-1-6-3-3">
+<ol class="org-ol">
+<li>Angle of incidence
+Angle between the incident ray and normal</li>
+<li>Angle of reflection
+Angle between the reflected ray and normal</li>
+<li>Glance angle of incidence
+Angle between the incident ray and mirror</li>
+<li>Glance angle of reflection
+Angle between the reflected ray and mirror</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org9f0791d" class="outline-4">
+<h4 id="org9f0791d"><span class="section-number-4">1.6.4</span> Laws of Reflection</h4>
+<div class="outline-text-4" id="text-1-6-4">
+<ol class="org-ol">
+<li>The incident ray, the normal, and the reflected ray are all in the same plance</li>
+<li>The angle of incidence is equal to the angle if reflection</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org949bacb" class="outline-4">
+<h4 id="org949bacb"><span class="section-number-4">1.6.5</span> Types of Images</h4>
+<div class="outline-text-4" id="text-1-6-5">
+</div>
+<ol class="org-ol">
+<li><a id="orgdeaf69a"></a>Real Image<br />
+<div class="outline-text-5" id="text-1-6-5-1">
+<p>
+Can be obtained on a screen. Is inverted. Example cinema screen
+</p>
+</div>
+</li>
+<li><a id="org296bcf4"></a>Virtual Image<br />
+<div class="outline-text-5" id="text-1-6-5-2">
+<p>
+Can <span class="underline">not</span> be obtained on a screen. Is errect. Example plane mirror.
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgec7e3f8" class="outline-4">
+<h4 id="orgec7e3f8"><span class="section-number-4">1.6.6</span> Differences</h4>
+<div class="outline-text-4" id="text-1-6-6">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Parameter</th>
+<th scope="col" class="org-left">Real</th>
+<th scope="col" class="org-left">Virtual</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Formation</td>
+<td class="org-left">It is fromed when two rays inersect at a point in front of the mirror</td>
+<td class="org-left">When two or more rays appear to meet behind a screen</td>
+</tr>
+
+<tr>
+<td class="org-left">Screen</td>
+<td class="org-left">It can be obtained on a screen</td>
+<td class="org-left">It can <span class="underline">not</span></td>
+</tr>
+
+<tr>
+<td class="org-left">Nature</td>
+<td class="org-left">It is always inverted</td>
+<td class="org-left">It is alwyas <span class="underline">errect</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org0cf063b" class="outline-4">
+<h4 id="org0cf063b"><span class="section-number-4">1.6.7</span> Pair of mirros formula</h4>
+</div>
+<div id="outline-container-org24a3d58" class="outline-4">
+<h4 id="org24a3d58"><span class="section-number-4">1.6.8</span> Parallel mirrors</h4>
+</div>
+<div id="outline-container-org807665b" class="outline-4">
+<h4 id="org807665b"><span class="section-number-4">1.6.9</span> Uses of plane mirrors</h4>
+</div>
+</div>
+<div id="outline-container-org87e0185" class="outline-3">
+<h3 id="org87e0185"><span class="section-number-3">1.7</span> Sound</h3>
+</div>
+<div id="outline-container-orgba738bc" class="outline-3">
+<h3 id="orgba738bc"><span class="section-number-3">1.8</span> Electricty</h3>
+</div>
+<div id="outline-container-org108eace" class="outline-3">
+<h3 id="org108eace"><span class="section-number-3">1.9</span> Magnetism</h3>
+</div>
+</div>
+<div id="outline-container-org2110f0d" class="outline-2">
+<h2 id="org2110f0d"><span class="section-number-2">2</span> English</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org5771fa0" class="outline-3">
+<h3 id="org5771fa0"><span class="section-number-3">2.1</span> Merchant of Venice</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-orgf5e28f9" class="outline-4">
+<h4 id="orgf5e28f9"><span class="section-number-4">2.1.1</span> <span class="todo TODO">TODO</span> Worksheets</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+<a href="English/2022-01-19_09-14-35_Eng_IX_-Lit-Worksheet 9- MOV- Act 1 Sc 1.pdf">English/2022-01-19_09-14-35_Eng_IX_-Lit-Worksheet 9- MOV- Act 1 Sc 1.pdf</a>
+</p>
+
+
+<p>
+<a href="English/2022-01-19_09-14-54_Eng_IX_-Lit-Worksheet 9-MOV I (ii).pdf">English/2022-01-19_09-14-54_Eng_IX_-Lit-Worksheet 9-MOV I (ii).pdf</a>
+</p>
+
+<p>
+<a href="English/2022-01-19_09-15-02_Eng_Lit_MOV_Worksheet 10.pdf">English/2022-01-19_09-15-02_Eng_Lit_MOV_Worksheet 10.pdf</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org67ad221" class="outline-4">
+<h4 id="org67ad221"><span class="section-number-4">2.1.2</span> Act 1</h4>
+<div class="outline-text-4" id="text-2-1-2">
+</div>
+<ol class="org-ol">
+<li><a id="org857002e"></a>Scene 1<br />
+<div class="outline-text-5" id="text-2-1-2-1">
+<p>
+Whole discussion about why antonio is sad, followed by bassanio
+revealing to antonio what he had wanted to talk about
+</p>
+</div>
+
+<ol class="org-ol">
+<li><a id="org32e4cf5"></a>Segment 1<br />
+<div class="outline-text-6" id="text-2-1-2-1-1">
+<p>
+Antonio &rarr; Salarino, Salanio: Reasons why antonio is sad
+</p>
+</div>
+</li>
+<li><a id="orgfc6e6c1"></a>Segment 2<br />
+<div class="outline-text-6" id="text-2-1-2-1-2">
+<p>
+Antonio &rarr; Gratiano, Lorenzo: Gratiano not letting lorenzo speak
+</p>
+</div>
+</li>
+<li><a id="orgdd6f976"></a>Segment 3<br />
+<div class="outline-text-6" id="text-2-1-2-1-3">
+<p>
+Antonio &rarr; Bassanio: Portia
+</p>
+</div>
+</li>
+
+
+<li><a id="orgce3b271"></a>References<br />
+<ol class="org-ol">
+<li><a id="org51e7656"></a>Middle Age References<br />
+<div class="outline-text-7" id="text-2-1-2-1-4-1">
+<ul class="org-ul">
+<li>Jaundice</li>
+<li>Livers being the most important organ in the body</li>
+</ul>
+</div>
+</li>
+<li><a id="orga069236"></a>Greek References<br />
+<div class="outline-text-7" id="text-2-1-2-1-4-2">
+<ul class="org-ul">
+<li>Nestor ( Greek general, never laughed )</li>
+<li>Jason</li>
+<li>Oracle</li>
+<li>Golden fleece</li>
+</ul>
+</div>
+</li>
+<li><a id="org016aaef"></a>Roman References<br />
+<div class="outline-text-7" id="text-2-1-2-1-4-3">
+<ul class="org-ul">
+<li>Janus</li>
+<li>Portia (the other one)</li>
+<li>Brutus</li>
+<li>Cato</li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a id="orge835616"></a>Scene 2<br />
+<div class="outline-text-5" id="text-2-1-2-2">
+<p>
+Portia and nerissa discusss portia's suitor. First she cribs a little
+bit about her father's rules and then it's made clear she likes
+bassanio
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="org8dc7b2a"></a>Cribbing<br />
+<div class="outline-text-6" id="text-2-1-2-2-1">
+<p>
+If it do was as easy as to know what were good to do, Chapels had
+been chruches as poor men's cottages princes' palaces. It is a good
+divine that follows his own instructions. I can easier teach twenty
+what were good to be done, that ne one of the twenty to follow mine
+own teaching. The brain may devise laws for blood, but a hot temper
+leaps o'er a cold decree: such a hare is madness of youth, to skit
+o'er the meshes of good cousel, the cripple
+</p>
+</div>
+</li>
+<li><a id="orgbaf9fcc"></a>Neapolitan Prince<br />
+<div class="outline-text-6" id="text-2-1-2-2-2">
+<p>
+From naples, Italy
+(map)
+</p>
+
+<p>
+Greatest Achievement: Shoeing his horse
+</p>
+
+<p>
+Hobby: Talking about how he can shoe his horse.
+</p>
+</div>
+</li>
+
+<li><a id="orgdd2bd6a"></a>County palatine<br />
+<div class="outline-text-6" id="text-2-1-2-2-3">
+<p>
+South Germany ( does not exist yet ), so palatinate
+</p>
+
+<p>
+Future expectations: Going to live in the mountains abandoning humaity (<code>Heraclitus of Ephesus</code>)
+</p>
+
+<p>
+Hobbies: Sulking
+</p>
+
+<p>
+<i>I had rather be married to death's head with a bone in his mouth</i>
+</p>
+</div>
+</li>
+<li><a id="org58b5d22"></a>Monsieur Le bon<br />
+<div class="outline-text-6" id="text-2-1-2-2-4">
+<p>
+France
+</p>
+
+<p>
+Stunning prince from france, beats down both County palatine <i>and</i>
+Neaplitan&#x2026;. In being a horrible husband. He has the temprement of
+Count plataine. And the boastfulnes of the Neapolitan prince.
+</p>
+
+<p>
+<i>If he would despise me, I should forgive him. for if he love me to
+maddness, I shall never requite him</i>
+</p>
+</div>
+</li>
+<li><a id="org160e96f"></a>Baron Falconbridge<br />
+<div class="outline-text-6" id="text-2-1-2-2-5">
+<p>
+From, England
+</p>
+
+<p>
+Languages: <i>pas de</i> <i>Français</i>, <i>non latin</i>, <i>nessun italiano</i>
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="org6a653f1"></a>Clothes<br />
+<div class="outline-text-7" id="text-2-1-2-2-5-1">
+<ul class="org-ul">
+<li>Italian Doublet(Jacket)</li>
+<li>French Breeches</li>
+<li>German Bonnet</li>
+<li>Everywherian behaviour</li>
+</ul>
+
+<p>
+<i>alas, who can converse with a dumb show</i>
+</p>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="orge18f6e1"></a><i>Scottish lord</i><br /></li>
+<li><a id="org8eb00dd"></a>Nephew of Duke Saxony<br /></li>
+<li><a id="orgcbf78d6"></a>Prince Morroco<br /></li>
+</ol>
+</li>
+<li><a id="orga0498f5"></a>Scene 3<br /></li>
+</ol>
+</div>
+<div id="outline-container-org2c3c253" class="outline-4">
+<h4 id="org2c3c253"><span class="section-number-4">2.1.3</span> Act 2</h4>
+<div class="outline-text-4" id="text-2-1-3">
+</div>
+<ol class="org-ol">
+<li><a id="org5367b70"></a>Scene 1<br /></li>
+<li><a id="orgcd5f243"></a>Scene 2<br /></li>
+<li><a id="org6278f64"></a>Scene 3<br /></li>
+<li><a id="orgf23369a"></a>Scene 4<br /></li>
+<li><a id="org44cd04e"></a>Scene 5<br /></li>
+<li><a id="org9aafab5"></a>Scene 6<br /></li>
+<li><a id="org1fc2e97"></a>Scene 7<br /></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf5fec78" class="outline-2">
+<h2 id="orgf5fec78"><span class="section-number-2">3</span> Biology</h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: anubi</p>
+<p class="date">Created: 2022-01-19 Wed 10:18</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

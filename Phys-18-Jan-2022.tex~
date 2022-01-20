@@ -1,0 +1,409 @@
+% Created 2022-01-19 Wed 11:26
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{anubi}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={anubi},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.1 (Org mode 9.3)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Physics}
+\label{sec:org0159e71}
+\subsection{Motion in one dimension}
+\label{sec:orgbe0a6d6}
+\subsection{Laws of motion}
+\label{sec:orgdbe263a}
+\subsection{Gravitation}
+\label{sec:org28159a1}
+\subsection{Heat}
+\label{sec:org013fbe0}
+\subsubsection{Definition of temperature}
+\label{sec:org422cbf9}
+
+\begin{itemize}
+\item \emph{Degree of hottness or coldness of an object.}
+\item \emph{Average total kinetic energy in an object}
+\end{itemize}
+\emph{- It determines the direction of flow of heat}
+
+Unit - K, C
+\subsubsection{Definition of Heat}
+\label{sec:org5572ce7}
+
+\emph{- Sum total energy of all the molecules in a substance}
+
+\texttt{AKA:} \textbf{Thermal Energy}, \textbf{Heat Energy}
+
+Unit - Joule, Watt-Hour
+1 cal = 4.126 Joule
+
+\subsubsection{Thermal equilibrium}
+\label{sec:orgf6457e5}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{Physics/2022-01-18_13-59-40_screenshot.png}
+\end{center}
+
+\begin{itemize}
+\item The condition when objects in contact with each other do not further exchange head it called \emph{Thermal Equilibrium}
+\end{itemize}
+
+\subsubsection{Difference between heat and temperature}
+\label{sec:org031def2}
+\begin{center}
+\begin{tabular}{rll}
+\hline
+No. & Heat & Temperature\\
+\hline
+1. & Heat is a form of energy & Temperature is a degree of hotness or colness\\
+2. & Heat is the cause of temperature & Temperature is an effect of heat\\
+3. & - & Temperature determines the direction of heat.\\
+4. & Unit - joule & Unit - kelvin\\
+\hline
+\end{tabular}
+\end{center}
+\subsubsection{Anamolous Expansion of Water}
+\label{sec:org214c83e}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{Heat/2022-01-18_13-27-22_screenshot.png}
+\end{center} 
+
+The Density of water is minimum at the temperature of 4C at 1
+gm/cc. Which is the standard density of water given in most places.
+
+\begin{enumerate}
+\item Pratical Applications
+\label{sec:orge9b1626}
+
+\begin{enumerate}
+\item Survival of Aquatic Creatures
+\label{sec:orgfc2fa96}
+In Northern climates lakes would fully freeze over, rather than just
+the surface because the surface would be the last to freeze anyway,
+but because at 4C the water sinks. Meaning at 4C The lake would be
+uniformly heated.
+
+\item Water Pipes burst
+\label{sec:orgb01bbaa}
+\item Fruits Burst
+\label{sec:org8704049}
+\item Frost bite
+\label{sec:org52d8b93}
+\end{enumerate}
+
+\item {\bfseries\sffamily TODO} Q1 Q7
+\label{sec:org90edaa6}
+\end{enumerate}
+\subsection{Energy}
+\label{sec:orgbb3a6ba}
+\subsection{Reflection of light}
+\label{sec:orgbc3b6f4}
+\subsubsection{The nature of light}
+\label{sec:org094b410}
+\begin{itemize}
+\item Light is a form of energy.
+\item Wave nature, particular nature, transverse
+\end{itemize}
+wave ( transverse - perpendicular ), ( logngitudinal is along the
+length ).
+\begin{enumerate}
+\item {\bfseries\sffamily TODO} Speed of light 3 * 10\textsuperscript{8} m/s ( by definition,  approx. 299,792,458 \_
+\label{sec:org0ff48cb}
+In air, same as vaccum, in glass 2, and in water 2.25
+\end{enumerate}
+
+\subsubsection{Reflection of light}
+\label{sec:orgd147ce2}
+\begin{itemize}
+\item /Reflection is the phenomenon in which rays of light on striking a
+\end{itemize}
+surface are sent back into the same medium/
+\subsubsection{Definitions of Some terms}
+\label{sec:org2a5367b}
+\begin{enumerate}
+\item Points
+\label{sec:org2937a69}
+\begin{enumerate}
+\item Point of incidence
+Point where the ray strikes the mirror
+\item Point of reflection
+Point from which the ray emerges
+\end{enumerate}
+\item Rays
+\label{sec:org9976663}
+\begin{enumerate}
+\item Incident ray
+The ray that strickes the mirror's reflecting surface
+\item Reflected ray
+The ray that emerges from the mirror
+\item Normal
+A line drawn perpendicular to the mirror at the point of incidence
+\end{enumerate}
+\item Angles
+\label{sec:org84627b5}
+\begin{enumerate}
+\item Angle of incidence
+Angle between the incident ray and normal
+\item Angle of reflection
+Angle between the reflected ray and normal
+\item Glance angle of incidence
+Angle between the incident ray and mirror
+\item Glance angle of reflection
+Angle between the reflected ray and mirror
+\end{enumerate}
+\end{enumerate}
+\subsubsection{Laws of Reflection}
+\label{sec:org4e4fc25}
+\begin{enumerate}
+\item The incident ray, the normal, and the reflected ray are all in the same plance
+\item The angle of incidence is equal to the angle if reflection
+\end{enumerate}
+\subsubsection{Types of Images}
+\label{sec:orgd41906e}
+\begin{enumerate}
+\item Real Image
+\label{sec:orgcbb71e3}
+Can be obtained on a screen. Is inverted. Example cinema screen
+\item Virtual Image
+\label{sec:orgded010a}
+Can \uline{not} be obtained on a screen. Is errect. Example plane mirror.
+\end{enumerate}
+\subsubsection{Differences}
+\label{sec:org2d4d126}
+\begin{center}
+\begin{tabular}{lll}
+Parameter & Real & Virtual\\
+\hline
+Formation & It is fromed when two rays inersect at a point in front of the mirror & When two or more rays appear to meet behind a screen\\
+Screen & It can be obtained on a screen & It can \uline{not}\\
+Nature & It is always inverted & It is alwyas \uline{errect}\\
+\end{tabular}
+\end{center}
+
+\subsubsection{Pair of mirros formula}
+\label{sec:org782d189}
+\subsubsection{Parallel mirrors}
+\label{sec:orgec06bfc}
+\subsubsection{Uses of plane mirrors}
+\label{sec:org548b414}
+\subsection{Sound}
+\label{sec:org9c70fce}
+\subsection{Electricty}
+\label{sec:org1aeffc9}
+\subsection{Magnetism}
+\label{sec:orgc085c84}
+\section{English}
+\label{sec:org6034aee}
+\subsection{Merchant of Venice}
+\label{sec:org94b2f51}
+\subsubsection{{\bfseries\sffamily TODO} Worksheets}
+\label{sec:org39c5cc8}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{English/2022-01-19_09-14-35_Eng_IX_-Lit-Worksheet 9- MOV- Act 1 Sc 1.pdf}
+\end{center}
+
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{English/2022-01-19_09-14-54_Eng_IX_-Lit-Worksheet 9-MOV I (ii).pdf}
+\end{center}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{English/2022-01-19_09-15-02_Eng_Lit_MOV_Worksheet 10.pdf}
+\end{center}
+
+\subsubsection{Act 1}
+\label{sec:org817253c}
+\begin{enumerate}
+\item Scene 1
+\label{sec:org7d89ba8}
+Whole discussion about why antonio is sad, followed by bassanio
+revealing to antonio what he had wanted to talk about
+
+\begin{enumerate}
+\item Segment 1
+\label{sec:org2c4c115}
+Antonio \(\rightarrow\) Salarino, Salanio: Reasons why antonio is sad
+\item Segment 2
+\label{sec:orgec26ac3}
+Antonio \(\rightarrow\) Gratiano, Lorenzo: Gratiano not letting lorenzo speak
+\item Segment 3
+\label{sec:orgdfed53b}
+Antonio \(\rightarrow\) Bassanio: Portia
+
+
+\item References
+\label{sec:org2b1067a}
+\begin{enumerate}
+\item Middle Age References
+\label{sec:orge335914}
+\begin{itemize}
+\item Jaundice
+\item Livers being the most important organ in the body
+\end{itemize}
+\item Greek References
+\label{sec:orgfc6c097}
+\begin{itemize}
+\item Nestor ( Greek general, never laughed )
+\item Jason
+\item Oracle
+\item Golden fleece
+\end{itemize}
+\item Roman References
+\label{sec:org0b24379}
+\begin{itemize}
+\item Janus
+\item Portia (the other one)
+\item Brutus
+\item Cato
+\end{itemize}
+\end{enumerate}
+\end{enumerate}
+\item Scene 2
+\label{sec:org2567e29}
+Portia and nerissa discusss portia's suitor. First she cribs a little
+bit about her father's rules and then it's made clear she likes
+bassanio
+\begin{enumerate}
+\item Cribbing
+\label{sec:orgf801bdd}
+If it do was as easy as to know what were good to do, Chapels had
+been chruches as poor men's cottages princes' palaces. It is a good
+divine that follows his own instructions. I can easier teach twenty
+what were good to be done, that ne one of the twenty to follow mine
+own teaching. The brain may devise laws for blood, but a hot temper
+leaps o'er a cold decree: such a hare is madness of youth, to skit
+o'er the meshes of good cousel, the cripple
+\item Neapolitan Prince
+\label{sec:org7e3293c}
+From naples, Italy
+(map)
+
+Greatest Achievement: Shoeing his horse
+
+Hobby: Talking about how he can shoe his horse.
+
+\item County palatine
+\label{sec:orgdb3ba39}
+South Germany ( does not exist yet ), so palatinate
+
+Future expectations: Going to live in the mountains abandoning humaity (\texttt{Heraclitus of Ephesus})
+
+Hobbies: Sulking
+
+\emph{I had rather be married to death's head with a bone in his mouth}
+\item Monsieur Le bon
+\label{sec:orgc93dd94}
+France
+
+Stunning prince from france, beats down both County palatine \emph{and}
+Neaplitan\ldots{}. In being a horrible husband. He has the temprement of
+Count plataine. And the boastfulnes of the Neapolitan prince.
+
+\emph{If he would despise me, I should forgive him. for if he love me to
+maddness, I shall never requite him}
+\item Baron Falconbridge
+\label{sec:orgeaabfc2}
+From, England
+
+Languages: \emph{pas de} \emph{Français}, \emph{non latin}, \emph{nessun italiano}
+\begin{enumerate}
+\item Clothes
+\label{sec:orgcb320b6}
+\begin{itemize}
+\item Italian Doublet(Jacket)
+\item French Breeches
+\item German Bonnet
+\item Everywherian behaviour
+\end{itemize}
+
+\emph{alas, who can converse with a dumb show}
+\end{enumerate}
+\item \emph{Scottish lord}
+\label{sec:org515486a}
+\item Nephew of Duke Saxony
+\label{sec:org4004d16}
+\item Prince Morroco
+\label{sec:org5ec882d}
+\end{enumerate}
+\item Scene 3
+\label{sec:org71e5235}
+\end{enumerate}
+\subsubsection{Act 2}
+\label{sec:org63e29bd}
+\begin{enumerate}
+\item Scene 1
+\label{sec:org2542b8a}
+\item Scene 2
+\label{sec:org555a0ef}
+\item Scene 3
+\label{sec:orge970ce7}
+\item Scene 4
+\label{sec:org3f64c7f}
+\item Scene 5
+\label{sec:org019a7a7}
+\item Scene 6
+\label{sec:org6528dae}
+\item Scene 7
+\label{sec:orgdab802a}
+\end{enumerate}
+\section{Biology}
+\label{sec:org1e3b407}
+\subsection{Red Cross}
+\label{sec:orgbc45ab8}
+\subsubsection{Origin}
+\label{sec:org7cb093a}
+Originated in Geneva, Switzerland The ICRC operates in over a 100
+coutries, providing relief to patients all over the world.
+
+Jean-Henri Dunant, 1859 went to meet the french emperor napoleon the
+III, to talk about difficulties in bussiness in algeria, he arrived in
+the small town of Solferino. Dunant was horrified by the death he saw
+at the battle of solferino, every single day 40,00 soldiers died and
+for that dunant devoted himself to their aid .Before which there
+weren't many aid Gustave Moynier in 1863 received denuna't book and
+but it for discussion at theosciety for public welfare in geneva.
+
+Back at home he write a book called A memory of solferino
+
+Since this was the 19th centuary, the international committee was
+attencded by the autrian empire baden, bavaria, france, hanover,
+hesse, italy, netherlands, prussia, russia, saxony, spain, UK, seden,
+norway
+\subsubsection{WW1}
+\label{sec:org76312b1}
+The red cross beign an international organisation does not have much
+power within countries, it has to work with the red cross
+organisations of various countries. 
+
+It is stunning to imagine that they were able to muster any effort at
+all considering the leading medical science had barely even accepted
+thories like germ theory, they were still in the age before
+anasthesia.  Practices like amputation was the de-facto response to
+any disease. Aroma theory was still prevailent. The sanitation
+revolution after the cholera epidemic had only recently started.
+
+Regardless, They had to face one if the greatest disasters in world history WWI
+\end{document}

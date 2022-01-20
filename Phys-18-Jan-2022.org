@@ -1,32 +1,34 @@
-* Physics
-** Motion in one dimension
-** Laws of motion
-** Gravitation
-** Heat
-*** Definition of temperature
+* Syllabus
+** Physics
+*** Motion in one dimension
+*** Laws of motion
+*** Gravitation
+*** Heat
+**** Definition of temperature
 
 - /Degree of hottness or coldness of an object./
 - /Average total kinetic energy in an object/
 /- It determines the direction of flow of heat/
 
 Unit - K, C
-*** Definition of Heat
+0\deg C = 273k
+**** Definition of Heat
 
 /- Sum total energy of all the molecules in a substance/
 
 ~AKA:~ *Thermal Energy*, *Heat Energy*
 
-Unit - Joule, Watt-Hour
-1 cal = 4.126 Joule
+Unit - Joule, Watt-Hour, cal
+1 cal = 4.186 Joule
 
-*** Thermal equilibrium
+**** Thermal equilibrium
 
 #+DOWNLOADED: screenshot @ 2022-01-18 13:59:40
 [[file:Physics/2022-01-18_13-59-40_screenshot.png]]
 
 - The condition when objects in contact with each other do not further exchange head it called /Thermal Equilibrium/
 
-*** Difference between heat and temperature
+**** Difference between heat and temperature
 |-----+----------------------------------+-----------------------------------------------|
 | No. | Heat                             | Temperature                                   |
 |-----+----------------------------------+-----------------------------------------------|
@@ -35,54 +37,57 @@ Unit - Joule, Watt-Hour
 |  3. | -                                | Temperature determines the direction of heat. |
 |  4. | Unit - joule                     | Unit - kelvin                                 |
 |-----+----------------------------------+-----------------------------------------------|
-*** Anamolous Expansion of Water
+**** Anamolous Expansion of Water
 
 #+DOWNLOADED: screenshot @ 2022-01-18 13:27:22
 [[file:Heat/2022-01-18_13-27-22_screenshot.png]] 
+- /The expansion of water when it is cooled below 4\deg C/
 
-The Density of water is minimum at the temperature of 4C at 1
+The Density of water is minimum at the temperature of 4\deg C at 1
 gm/cc. Which is the standard density of water given in most places.
 
-**** Pratical Applications
+***** Pratical Applications
 
-***** Survival of Aquatic Creatures
+****** Survival of Aquatic Creatures
 In Northern climates lakes would fully freeze over, rather than just
 the surface because the surface would be the last to freeze anyway,
 but because at 4C the water sinks. Meaning at 4C The lake would be
 uniformly heated.
 
-***** Water Pipes burst
-***** Fruits Burst
-***** Frost bite
-
-**** TODO Q1 Q7
-** Energy
-** Reflection of light
-*** The nature of light
+****** Water Pipes burst
+The expansion of water causes the pipes to burst
+****** Fruits Burst
+The water present in each of the cells expand causing great pressure
+****** Frost bite
+Similarly, for humans
+***** TODO Q1 Q7
+*** Energy
+*** Reflection of light
+**** The nature of light
 - Light is a form of energy.
 - Wave nature, particular nature, transverse
 wave ( transverse - perpendicular ), ( logngitudinal is along the
 length ).
-**** TODO Speed of light 3 * 10^8 m/s ( by definition,  approx. 299,792,458 _
+***** TODO Speed of light 3 * 10^8 m/s ( by definition,  exact. 299,792,458 )
 In air, same as vaccum, in glass 2, and in water 2.25
 
-*** Reflection of light
+**** Reflection of light
 - /Reflection is the phenomenon in which rays of light on striking a
 surface are sent back into the same medium/
-*** Definitions of Some terms
-**** Points
+**** Definitions of Some terms
+***** Points
 1. Point of incidence
    Point where the ray strikes the mirror
 2. Point of reflection
    Point from which the ray emerges
-**** Rays 
+***** Rays 
 1. Incident ray
    The ray that strickes the mirror's reflecting surface
 2. Reflected ray
    The ray that emerges from the mirror
 3. Normal
    A line drawn perpendicular to the mirror at the point of incidence
-**** Angles
+***** Angles
 1. Angle of incidence
    Angle between the incident ray and normal
 2. Angle of reflection
@@ -91,30 +96,69 @@ surface are sent back into the same medium/
    Angle between the incident ray and mirror
 4. Glance angle of reflection
    Angle between the reflected ray and mirror
-*** Laws of Reflection
+**** Laws of Reflection
 1. The incident ray, the normal, and the reflected ray are all in the same plance
 2. The angle of incidence is equal to the angle if reflection
-*** Types of Images
-**** Real Image
+**** Types of Images
+***** Real Image
 Can be obtained on a screen. Is inverted. Example cinema screen
-**** Virtual Image
+***** Virtual Image
 Can _not_ be obtained on a screen. Is errect. Example plane mirror.
-*** Differences
+**** Differences
 | Parameter | Real                                                                  | Virtual                                              |
 |-----------+-----------------------------------------------------------------------+------------------------------------------------------|
 | Formation | It is fromed when two rays inersect at a point in front of the mirror | When two or more rays appear to meet behind a screen |
 | Screen    | It can be obtained on a screen                                        | It can _not_                                           |
 | Nature    | It is always inverted                                                 | It is alwyas _errect_                                |
 
-*** Pair of mirros formula
-*** Parallel mirrors
-*** Uses of plane mirrors
-** Sound
-** Electricty 
-** Magnetism
-* English
-** Merchant of Venice
-*** TODO Worksheets
+**** Pair of mirros formula
+**** Parallel mirrors
+**** Uses of plane mirrors
+*** Sound
+*** Electricty 
+**** Electricty
+*** Magnetism 
+**** Natural Magnet
+**** Magnet
+**** Magnetic Poles
+**** Magnetic and Non-Magnetic substances
+/Substances that are attracted to magnets are called magnetic/
+**** Magnetic Compass
+- /It is an instrument consisting of a suspended magnet which can be used for navigation/
+**** Properties of Magnets
+***** Attractive Property
+***** Directive Property
+***** Attraction and Replusion
+***** No such thing as a UniPole
+**** Induced Magnetism
+**** Earth's Magnetic Field
+**** Uniform and Non Uniform Magnetic Fields
+Uniform - Center of bar magnet, lines are parallel
+Non Uniform - Everything else
+**** MLOF
+**** Null Points
+Points where the value of the magnetic field is 0.
+**** Electro-Magnet
+- /A manget whose magnetic field is induced by electric current/
+**** Uses of Magnets
+**** Electric Bell
+It works on the prinnciple of electro magnetism.
+
+- On pressing the key the current starts flowing in the circuit of the
+electric bell.
+
+- When the current passes through the electromegnet it
+attracts the hammer towards itself which strikes the gong
+
+- When the hammer touches the gong the circuit breaks down. Current
+stops flowing, due to which the electromagent loses its
+electromgentism and returns to its orignial positionn
+
+- When the hammer comes back the setup is returned to its original position
+
+** English
+*** Merchant of Venice
+**** TODO Worksheets
 
 #+DOWNLOADED: file:///home/anubi/Downloads/Eng_IX_-Lit-Worksheet%209-%20MOV-%20Act%201%20Sc%201.pdf @ 2022-01-19 09:14:35
 [[file:English/2022-01-19_09-14-35_Eng_IX_-Lit-Worksheet 9- MOV- Act 1 Sc 1.pdf]]
@@ -126,38 +170,38 @@ Can _not_ be obtained on a screen. Is errect. Example plane mirror.
 #+DOWNLOADED: file:///home/anubi/Downloads/Eng_Lit_MOV_Worksheet%2010.pdf @ 2022-01-19 09:15:02
 [[file:English/2022-01-19_09-15-02_Eng_Lit_MOV_Worksheet 10.pdf]]
 
-*** Act 1
-**** Scene 1
+**** Act 1
+***** Scene 1
 Whole discussion about why antonio is sad, followed by bassanio
 revealing to antonio what he had wanted to talk about
 
-***** Segment 1
+****** Segment 1
 Antonio \rightarrow Salarino, Salanio: Reasons why antonio is sad
-***** Segment 2
+****** Segment 2
 Antonio \rightarrow Gratiano, Lorenzo: Gratiano not letting lorenzo speak
-***** Segment 3
+****** Segment 3
 Antonio \rightarrow Bassanio: Portia
 
 
-***** References 
-****** Middle Age References
+****** References 
+******* Middle Age References
 - Jaundice
 - Livers being the most important organ in the body
-****** Greek References
+******* Greek References
 - Nestor ( Greek general, never laughed )
 - Jason
 - Oracle
 - Golden fleece
-****** Roman References
+******* Roman References
 - Janus
 - Portia (the other one)
 - Brutus
 - Cato
-**** Scene 2
+***** Scene 2
 Portia and nerissa discusss portia's suitor. First she cribs a little
 bit about her father's rules and then it's made clear she likes
 bassanio
-***** Cribbing
+****** Cribbing
 If it do was as easy as to know what were good to do, Chapels had
 been chruches as poor men's cottages princes' palaces. It is a good
 divine that follows his own instructions. I can easier teach twenty
@@ -165,21 +209,23 @@ what were good to be done, that ne one of the twenty to follow mine
 own teaching. The brain may devise laws for blood, but a hot temper
 leaps o'er a cold decree: such a hare is madness of youth, to skit
 o'er the meshes of good cousel, the cripple
-***** Neapolitan Prince
+****** Neapolitan Prince
 From naples, Italy
 (map)
 
 Greatest Achievement: Shoeing his horse
+
 Hobby: Talking about how he can shoe his horse.
 
-***** County palatine
+****** County palatine
 South Germany ( does not exist yet ), so palatinate
 
 Future expectations: Going to live in the mountains abandoning humaity (=Heraclitus of Ephesus=)
+
 Hobbies: Sulking
 
 /I had rather be married to death's head with a bone in his mouth/
-***** Monsieur Le bon
+****** Monsieur Le bon
 France
 
 Stunning prince from france, beats down both County palatine /and/
@@ -188,26 +234,131 @@ Count plataine. And the boastfulnes of the Neapolitan prince.
 
 /If he would despise me, I should forgive him. for if he love me to
 maddness, I shall never requite him/
-***** Baron Falconbridge
+****** Baron Falconbridge
 From, England
 
 Languages: /pas de/ /Français/, /non latin/, /nessun italiano/
-****** Clothes
+******* Clothes
 - Italian Doublet(Jacket)
 - French Breeches
 - German Bonnet
 - Everywherian behaviour
 
 /alas, who can converse with a dumb show/
-***** /Scottish lord/
-***** Nephew of Duke Saxony
-***** Prince Morroco
-**** Scene 3
-*** Act 2
-**** Scene 1
-**** Scene 2
-**** Scene 3
-**** Scene 4
-**** Scene 5
-**** Scene 6
-**** Scene 7
+****** /Scottish lord/
+****** Nephew of Duke Saxony
+****** Prince Morroco
+***** Scene 3
+**** Act 2
+***** Scene 1
+***** Scene 2
+***** Scene 3
+***** Scene 4
+***** Scene 5
+***** Scene 6
+***** Scene 7
+** Biology
+*** Red Cross
+**** Origin
+Originated in Geneva, Switzerland The ICRC operates in over a 100
+coutries, providing relief to patients all over the world.
+
+Jean-Henri Dunant, 1859 went to meet the french emperor napoleon the
+III, to talk about difficulties in bussiness in algeria, he arrived in
+the small town of Solferino. Dunant was horrified by the death he saw
+at the battle of solferino, every single day 40,00 soldiers died and
+for that dunant devoted himself to their aid .Before which there
+weren't many aid Gustave Moynier in 1863 received denuna't book and
+but it for discussion at theosciety for public welfare in geneva.
+
+Back at home he write a book called A memory of solferino
+
+Since this was the 19th centuary, the international committee was
+attencded by the autrian empire baden, bavaria, france, hanover,
+hesse, italy, netherlands, prussia, russia, saxony, spain, UK, seden,
+norway
+**** WW1
+The red cross beign an international organisation does not have much
+power within countries, it has to work with the red cross
+organisations of various countries. 
+
+It is stunning to imagine that they were able to muster any effort at
+all considering the leading medical science had barely even accepted
+thories like germ theory, they were still in the age before
+anasthesia.  Practices like amputation was the de-facto response to
+any disease. Aroma theory was still prevailent. The sanitation
+revolution after the cholera epidemic had only recently started.
+
+Regardless, They had to face one if the greatest disasters in world history WWI
+** Hindi
+** Geography
+*** Atmosphere
+**** Winds Static winds
+
+#+DOWNLOADED: screenshot @ 2022-01-18 13:05:17
+[[file:Winds/2022-01-18_13-05-17_screenshot.png]]
+
+****** Northern Hemisphere
+******* North Easterlies
+Polar
+******* South Westerlies
+Variable
+******* North-East Trade Winds
+****** Southern Hemisphere
+******* South-East Trade Winds
+******* North Westerlies
+Variable, AKA: Roaring Forties, Furious Fifties, Shrieking/Gloomy Sixties
+******* South Westerlies
+***** Periodic winds
+Only during a certain part of the year, or season, or day.
+****** Daily
+******* Sea Breeze
+Sea -> Land
+******* Land Breeze
+Land -> Sea
+****** Seasonal
+******* Monsoon
+Same cause as land and sea breeze but they are on the seasonal scale.
+******** Summer Monsoon
+Wind blows from the Sea to the land as in summer the land mass has
+lower pressure, coming from the ocean they bring rain and moisture to
+the coastal region
+
+******** Winter Monsoon
+Much weaker, carries no water and is pretty much sporadic they winds
+are cold and dry coming from central asia.
+
+***** Local Winds
+Localized only effect a small area
+****** Loo
+****** Chinook
+****** Feohn
+****** Mistral
+***** Variable Winds
+They are caused occasionally due to the movement of pressure systems
+****** Cyclones
+****** Anti-Cyclones
+**** Pressure Belts
+***** Low pressure eq
+Makes Sense its pretty hot so low pressure. This forms clouds when the
+water rises and makes cloud, this also explains daily rainfall
+***** High pressure Sub tropical
+Doesn't really make sense its still pretty hot. The air which has
+risen from the equator, will sink when it reaches slightly higher
+latitudes. This also means that there won't be any clouds because all
+the water leaves as the air cools, it evaporatoes off. This means that
+the sky is clear. No cloud cover means extreme temperatures.
+
+Off hand: "/This is why there are desserts there"/
+
+***** Low Pressure Sub Polar
+***** High Pressure Polar
+Makes sense its prety cold so high pressure
+**** Pressure Cells
+- Hadley cell
+  Between the eq and subtropical belts
+- Ferrel cell
+  Between the Sub Polar and and Sub tropical Belts
+- Polar cell
+  Between the polar and sub polar belts
+
